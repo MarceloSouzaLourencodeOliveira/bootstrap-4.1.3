@@ -43,11 +43,6 @@
     </ul>
 
 
-
-
-
-
-
     <h2>Barra de navegação simples</h2>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <!--Logo-->
@@ -66,19 +61,6 @@
             </li>
         </ul>
     </nav>
-
-
-
-    
-
-
-
-
-
-
-
-
-
 
     <h2>Barra de navegação com menu responsivo</h2>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -113,11 +95,77 @@
 
 
     <h2>Barra de navegação com formulário</h2>
-    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chelé Hotel</a>
+        <!--Menu Hamburger  (declarando menu hamburger)   o menu ao aparece se no nav mae estiver declarado a class "navbar-expand-sm"  -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#abre-e-fecha2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--navegação-->
+        <div class="collapse navbar-collapse" id="abre-e-fecha2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+             <!-- Formulário-->
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="pesquisar..." name="" id="">
+                <button class="btn btn-outline-success">ok</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+
+
+
+
 
     
     <h2>Barra de navegação com menu dropdown</h2>
-    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chelé Hotel</a>
+        <!--Menu Hamburger  (declarando menu hamburger)   o menu ao aparece se no nav mae estiver declarado a class "navbar-expand-sm"  -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#abre-e-fecha3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--navegação-->
+        <div class="collapse navbar-collapse" id="abre-e-fecha3">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Sobre</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Serviços</a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">Serviço 1</a>
+                        <a href="" class="dropdown-item">Serviço 2</a>
+                        <a href="" class="dropdown-item">Serviço 3</a>
+                    </div>
+
+                </li>
+
+            </ul>
+             <!-- Formulário-->
+            
+        </div>
+    </nav>
     
     <!--Cores
     opções: bg-primary, bg-secondary, bg-success, bg-info,
